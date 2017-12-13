@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: sample-consume-rest
+    
+server:
+  port: 8080
+  
+cloudlib:
+  team:
+    ext-urls:
+      some-url: https://base_url/xx/v1/xxx
+    
