@@ -18,7 +18,7 @@ public class SampleService {
     @Autowired
     private RestTemplate restTemplate;
     
-    public Object createFedIdpLocals(Object inputFromUI) throws IOException {
+    public Object createXXX(Object inputFromUI) throws IOException {
         
         byte[] bdata = FileCopyUtils.copyToByteArray(serviceConfig.getCreateXXRequestPayload().getInputStream());
         String requestPayloadStr = new String(bdata, StandardCharsets.UTF_8);
